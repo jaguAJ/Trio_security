@@ -1,0 +1,14 @@
+/* .nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000000;
+  transition: all 0.3s;
+  list-style: none;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #b5b3b2;
+  text-decoration: underline;
+} */
