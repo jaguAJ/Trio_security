@@ -67,7 +67,10 @@ body {
 }
 
 /* NAVIGATION */
-
+body.menu-open {
+  overflow: hidden; /* Prevent scrolling */
+  height: 100vh; /* Maintain height */
+}
 .header {
   display: flex;
   position: relative;

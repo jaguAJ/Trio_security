@@ -1,18 +1,28 @@
 import Nav from "./Nav.js";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function MainNavigation({ isTransparent }) {
   const [openMenu, setIsOpenMenu] = useState(false);
 
+  useEffect(() => {
+    if (openMenu) {
+      document.body.classList.add("menu-open");
+    } else {
+      document.body.classList.remove("menu-open");
+    }
+
+    return () => {
+      document.body.classList.remove("menu-open");
+    };
+  }, [openMenu]);
+
   function handleClick() {
     setIsOpenMenu((prevState) => !prevState);
-    document.body.classList.toggle("menu-open", !openMenu);
   }
 
   function closeMenu() {
     setIsOpenMenu(false);
-    document.body.classList.remove("menu-open");
   }
 
   return (
