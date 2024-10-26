@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Trio_security/static/css/main.f1b0f9c2.css",
-    "main.js": "/Trio_security/static/js/main.d6ce6432.js",
+    "main.css": "/Trio_security/static/css/main.8dd7ac10.css",
+    "main.js": "/Trio_security/static/js/main.61ee4035.js",
     "static/js/453.1afd1409.chunk.js": "/Trio_security/static/js/453.1afd1409.chunk.js",
     "static/media/heroimg.jpeg": "/Trio_security/static/media/heroimg.41f8a1f96dabe9c24cfc.jpeg",
     "static/media/ma.png": "/Trio_security/static/media/ma.520afd861a41919c6820.png",
@@ -26,12 +26,12 @@
     "static/media/rocket.svg": "/Trio_security/static/media/rocket.3e8c9282d9cd8a735c4249733abe97d6.svg",
     "static/media/Arrow.svg": "/Trio_security/static/media/Arrow.1ac34a608e9e46873dc912254b989a11.svg",
     "static/media/arr.svg": "/Trio_security/static/media/arr.0c6531fb1d2618054f8259e8adff9b83.svg",
-    "main.f1b0f9c2.css.map": "/Trio_security/static/css/main.f1b0f9c2.css.map",
-    "main.d6ce6432.js.map": "/Trio_security/static/js/main.d6ce6432.js.map",
+    "main.8dd7ac10.css.map": "/Trio_security/static/css/main.8dd7ac10.css.map",
+    "main.61ee4035.js.map": "/Trio_security/static/js/main.61ee4035.js.map",
     "453.1afd1409.chunk.js.map": "/Trio_security/static/js/453.1afd1409.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b0f9c2.css",
-    "static/js/main.d6ce6432.js"
+    "static/css/main.8dd7ac10.css",
+    "static/js/main.61ee4035.js"
   ]
 }
