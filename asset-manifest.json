@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Trio_security/static/css/main.93277ded.css",
+    "main.js": "/Trio_security/static/js/main.5f78db88.js",
+    "static/js/453.1afd1409.chunk.js": "/Trio_security/static/js/453.1afd1409.chunk.js",
+    "static/media/heroimg.jpeg": "/Trio_security/static/media/heroimg.41f8a1f96dabe9c24cfc.jpeg",
+    "static/media/ma.png": "/Trio_security/static/media/ma.520afd861a41919c6820.png",
+    "static/media/mobileHeroImg.png": "/Trio_security/static/media/mobileHeroImg.1b69bf9baa6a8de75fb5.png",
+    "static/media/getintouch.jpg": "/Trio_security/static/media/getintouch.bf2f07c07b368a6c3f66.jpg",
+    "static/media/ui.png": "/Trio_security/static/media/ui.d65ca2f54559bec7f77e.png",
+    "static/media/S.png": "/Trio_security/static/media/S.43abdfd325cac58f350b.png",
+    "static/media/health.png": "/Trio_security/static/media/health.530a523a5ff71a904b99.png",
+    "static/media/group-39473.png": "/Trio_security/static/media/group-39473.935c7b9f3ef8717d5453.png",
+    "static/media/finance.png": "/Trio_security/static/media/finance.8b3632c4aef6d1d2ceb2.png",
+    "static/media/br.png": "/Trio_security/static/media/br.94a4bbfff847a771733c.png",
+    "static/media/ai.png": "/Trio_security/static/media/ai.02d6aa2535932d463837.png",
+    "static/media/softdev.png": "/Trio_security/static/media/softdev.daf1a4d39959f6f2e054.png",
+    "static/media/automative.png": "/Trio_security/static/media/automative.c97f48763fd503bbc8d8.png",
+    "static/media/websiteuiux.png": "/Trio_security/static/media/websiteuiux.e2c69f184aa79eb974cf.png",
+    "static/media/dg.png": "/Trio_security/static/media/dg.6cf97a6fcad63a87dede.png",
+    "static/media/ecom.png": "/Trio_security/static/media/ecom.e6ade331bfa56470cbf4.png",
+    "static/media/retail.png": "/Trio_security/static/media/retail.5a2b93827468385a7a40.png",
+    "static/media/shape.svg": "/Trio_security/static/media/shape.974b9a53fd1adc8fdde6.svg",
+    "static/media/RocketLaunch.svg": "/Trio_security/static/media/RocketLaunch.b84ff18895773fed766465237ecbe956.svg",
+    "index.html": "/Trio_security/index.html",
+    "static/media/rocket.svg": "/Trio_security/static/media/rocket.3e8c9282d9cd8a735c4249733abe97d6.svg",
+    "static/media/Arrow.svg": "/Trio_security/static/media/Arrow.1ac34a608e9e46873dc912254b989a11.svg",
+    "static/media/arr.svg": "/Trio_security/static/media/arr.0c6531fb1d2618054f8259e8adff9b83.svg",
+    "main.93277ded.css.map": "/Trio_security/static/css/main.93277ded.css.map",
+    "main.5f78db88.js.map": "/Trio_security/static/js/main.5f78db88.js.map",
+    "453.1afd1409.chunk.js.map": "/Trio_security/static/js/453.1afd1409.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93277ded.css",
+    "static/js/main.5f78db88.js"
+  ]
+}
