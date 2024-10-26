@@ -8,19 +8,22 @@ import Aboutus from "./pages/Aboutus.js";
 
 const App = () => {
   // Define the router with the routes
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <RootLayout />,
-      children: [
-        { index: true, element: <Home /> },
-        { path: "industries", element: <Industries /> },
-        { path: "GetInTouch", element: <Getintouch /> },
-        { path: "aboutus", element: <Aboutus /> },
-        { path: "ourservice", element: <Aboutus /> },
-      ],
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <RootLayout />,
+        children: [
+          { index: true, element: <Home /> },
+          { path: "industries", element: <Industries /> },
+          { path: "GetInTouch", element: <Getintouch /> },
+          { path: "aboutus", element: <Aboutus /> },
+          { path: "ourservice", element: <Aboutus /> },
+        ],
+      },
+    ],
+    { basename: "/Trio_security" }
+  );
 
   // Return RouterProvider to make use of the router
   return <RouterProvider router={router} />;
