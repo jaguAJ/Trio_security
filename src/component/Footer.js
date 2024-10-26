@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <footer className="pt-[8rem] pb-[6rem] border-t border-gray-200 bg-[#e6e6e6]">
-        <div className="bg-[#e6e6e6] grid grid-cols-[1fr_1.5fr]  sm:grid-cols-[2fr_2fr] md:grid-cols-[2fr_1.5fr_1.5fr_1.5fr] max-w-[120rem] mx-auto px-[3rem]  md:gap-x-[6.4rem] gap-y-[5rem] md:gap-y-[9.6rem] font-medium">
+        <div className="bg-[#e6e6e6] grid grid-cols-[1fr_1.5fr]  sm:grid-cols-[2fr_2fr] md:grid-cols-[2fr_1.5fr_1.5fr_1.5fr] max-w-[120rem] mx-auto px-[1rem]  md:gap-x-[6.4rem] gap-y-[5rem] md:gap-y-[9.6rem] font-medium">
           {/* TRIO SECURITY Section: Order 3 on small screens */}
           <div className="flex flex-col order-3 md:order-none justify-self-center md:justify-self-start">
             <Link

@@ -21,7 +21,7 @@ export const YUs = () => {
         <div className="relative w-full h-full md:w-[1395px] md:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
           <Vector1283 className="w-[1000px] h-[800px] scale-150 sm:scale-100 md:scale-100 sm:w-[838px] sm:h-[302px] md:w-[1395px] md:h-[395px] sm:rotate-0 rotate-90" />
           {/* First Card */}
-          <div className="absolute top-[-40px] left-[142px] md:top-[148px] md:left-[52px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[-40px] left-[120px] md:top-[148px] md:left-[52px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
               className="w-[54px] sm:w-[58px] md:w-[62px] h-[60px] sm:h-[64px] md:h-[68px]"
               alt="Star badge"
