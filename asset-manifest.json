@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Trio_security/static/css/main.39e1abab.css",
-    "main.js": "/Trio_security/static/js/main.ae110322.js",
+    "main.css": "/Trio_security/static/css/main.c0140bb3.css",
+    "main.js": "/Trio_security/static/js/main.d8060b9b.js",
     "static/js/453.1afd1409.chunk.js": "/Trio_security/static/js/453.1afd1409.chunk.js",
     "static/media/heroimg.jpeg": "/Trio_security/static/media/heroimg.41f8a1f96dabe9c24cfc.jpeg",
     "static/media/ma.png": "/Trio_security/static/media/ma.520afd861a41919c6820.png",
@@ -26,12 +26,12 @@
     "static/media/rocket.svg": "/Trio_security/static/media/rocket.3e8c9282d9cd8a735c4249733abe97d6.svg",
     "static/media/Arrow.svg": "/Trio_security/static/media/Arrow.1ac34a608e9e46873dc912254b989a11.svg",
     "static/media/arr.svg": "/Trio_security/static/media/arr.0c6531fb1d2618054f8259e8adff9b83.svg",
-    "main.39e1abab.css.map": "/Trio_security/static/css/main.39e1abab.css.map",
-    "main.ae110322.js.map": "/Trio_security/static/js/main.ae110322.js.map",
+    "main.c0140bb3.css.map": "/Trio_security/static/css/main.c0140bb3.css.map",
+    "main.d8060b9b.js.map": "/Trio_security/static/js/main.d8060b9b.js.map",
     "453.1afd1409.chunk.js.map": "/Trio_security/static/js/453.1afd1409.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e1abab.css",
-    "static/js/main.ae110322.js"
+    "static/css/main.c0140bb3.css",
+    "static/js/main.d8060b9b.js"
   ]
 }
