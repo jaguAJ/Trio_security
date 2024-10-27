@@ -21,9 +21,9 @@ export const YUs = () => {
         <div className="relative w-full h-full md:w-[1395px] md:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
           <Vector1283 className="w-[1000px] h-[800px] scale-150 sm:scale-100 md:scale-100 sm:w-[838px] sm:h-[302px] md:w-[1395px] md:h-[395px] sm:rotate-0 rotate-90" />
           {/* First Card */}
-          <div className="absolute top-[-40px] left-[120px] md:top-[148px] md:left-[52px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[-40px] left-[120px] md:top-[148px] md:left-[52px] flex flex-col py-[1.6rem] sm:py-[2.5rem] px-[2.6rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[54px] sm:w-[58px] md:w-[62px] h-[60px] sm:h-[64px] md:h-[68px]"
+              className="w-[52px] sm:w-[56px] md:w-[62px] h-[58px] sm:h-[62px] md:h-[68px]"
               alt="Star badge"
               src={star}
             />
@@ -37,9 +37,9 @@ export const YUs = () => {
           </div>
 
           {/* Second Card */}
-          <div className="absolute top-[185px] md:top-[49px] md:left-[382px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[185px] md:top-[49px] md:left-[382px] flex flex-col py-[1.6rem] sm:py-[3.6rem] px-[2.8rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[44px] sm:w-[46px] md:w-[50px] h-[60px] sm:h-[64px] md:h-[68px]"
+              className="w-[40px] sm:w-[42px] md:w-[50px] h-[56px] sm:h-[60px] md:h-[68px]"
               alt="Hourglass streamline"
               src={time}
             />
@@ -53,9 +53,9 @@ export const YUs = () => {
           </div>
 
           {/* Third Card */}
-          <div className="absolute top-[410px] left-[142px] md:top-[148px] md:left-[712px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="box-border overflow-hidden absolute top-[410px] left-[120px] md:top-[148px] md:left-[712px] flex flex-col py-[1.6rem] sm:py-[3.6rem] px-[2.8rem] sm:p-[2.8rem] gap-1 sm:gap-6 max-w-[228px] sm:max-w-[248px] md:max-w-[306px] h-[185px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[44px] sm:w-[46px] md:w-[50px] h-[46px] sm:h-[50px] md:h-[54px]"
+              className="w-[42px] sm:w-[44px] md:w-[50px] h-[44px] sm:h-[48px] md:h-[54px]"
               alt="affordable price"
               src={handshake}
             />
@@ -69,9 +69,9 @@ export const YUs = () => {
           </div>
 
           {/* Fourth Card */}
-          <div className="absolute top-[640px] md:top-[49px] md:left-[1031px] flex flex-col pt-[1.6rem] sm:pt-[2.5rem] pl-[2.8rem] gap-1 sm:gap-6 w-[228px] h-[185px] md:w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[640px] md:top-[49px] md:left-[1031px] flex flex-col py-[1.6rem] sm:py-[2.5rem] px-[2.8rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[44px] sm:w-[46px] md:w-[50px] h-[50px] sm:h-[54px] md:h-[58px]"
+              className="w-[42px] sm:w-[44px] md:w-[50px] h-[48px] sm:h-[52px] md:h-[58px]"
               alt="Customer support"
               src={support}
             />
