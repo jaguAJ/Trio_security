@@ -25,10 +25,10 @@ const Tools = () => {
         Tools &amp; Technologies
       </h2>
 
-      <div className="w-full h-[386px] md:h-[305px] bg-[#FAFAFA] shadow-[0px_-4px_10px_#00000040,0px_4px_10px_#00000040] ">
-        <div className="flex flex-col md:flex-row items-center justify-center max-w-full px-4 md:px-20 mx-auto gap-10 md:gap-[10rem] align-middle pt-12">
-          <div className="flex flex-col gap-y-10 md:gap-y-[4.5rem]">
-            <div className="flex flex-wrap gap-[3rem] md:gap-[10.5rem] justify-center">
+      <div className="w-full h-[386px] sm:h-[600px] lg:h-[305px] bg-[#FAFAFA] shadow-[0px_-4px_10px_#00000040,0px_4px_10px_#00000040] ">
+        <div className="flex flex-col lg:flex-row items-center justify-center max-w-full px-4 lg:px-20 mx-auto gap-10 sm:gap-14 lg:gap-[10rem] align-middle pt-12">
+          <div className="flex flex-col gap-y-10 sm:gap-y-16 lg:gap-y-[4.5rem]">
+            <div className="flex flex-wrap gap-[3rem] sm:gap-[6rem] lg:gap-[10.5rem] justify-center">
               <img
                 className="w-[46px] md:w-[93px] h-[50px] md:h-[101px]"
                 alt="Icon react original"
@@ -51,7 +51,7 @@ const Tools = () => {
               />
             </div>
 
-            <div className="flex  gap-2 flex-row md:gap-[6rem] justify-center items-center">
+            <div className="flex gap-2 flex-row sm:gap-16 lg:gap-[6rem] justify-center items-center">
               <div className="w-[117px] md:w-[234px] h-[50px] md:h-[101px]">
                 <img
                   className="w-[42px] md:w-[91px] h-[50px]  md:h-[101px] inline-block "
@@ -65,14 +65,14 @@ const Tools = () => {
                 />
               </div>
 
-              <div className="flex items-center md:gap-2 w-[105px] md:w-[213px] h-[81px] justify-center">
+              <div className="flex items-center lg:gap-2 w-[105px] lg:w-[213px] h-[81px] justify-center">
                 <img
-                  className="w-[46px] md:w-[92px] h-[40px] md:h-[81px]"
+                  className="w-[46px] sm:w-[78px] lg:w-[92px] h-[40px] md:h-[81px]"
                   alt="Mongo db"
                   src={Mongo}
                 />
                 <img
-                  className="w-[64px] md:w-[136px] h-[15px] md:h-[31px]"
+                  className="w-[64px] sm:w-[120px] lg:w-[136px] h-[15px] md:h-[31px]"
                   alt="Mongo DB"
                   src={mongodb}
                 />
@@ -86,7 +86,7 @@ const Tools = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-y-10 md:gap-y-[4.5rem]">
+          <div className="flex flex-col gap-y-10 lg:gap-y-[4.5rem]">
             <div className="flex flex-wrap gap-8 md:gap-16 justify-center">
               <img
                 className="w-[50px] md:w-[100px] h-[50px] md:h-[100px]"

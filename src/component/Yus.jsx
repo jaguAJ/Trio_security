@@ -18,7 +18,7 @@ export const YUs = () => {
           </h2>
         </>
 
-        <div className="relative w-full h-full md:w-[1395px] md:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
+        <div className="relative w-full h-full sm:w-[748px] lg:w-[1395px] sm:h-[300px] lg:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
           <Vector1283 className="w-[1000px] h-[800px] scale-150 sm:scale-100 md:scale-100 sm:w-[838px] sm:h-[302px] md:w-[1395px] md:h-[395px] sm:rotate-0 rotate-90" />
           {/* First Card */}
           <div className="absolute top-[-40px] left-[120px] md:top-[148px] md:left-[52px] flex flex-col py-[1.6rem] sm:py-[2.5rem] px-[2.6rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
