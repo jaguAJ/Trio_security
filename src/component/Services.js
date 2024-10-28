@@ -6,8 +6,8 @@ import styles from "./Services.module.css"; // Import CSS module
 
 function Services() {
   return (
-    <div className="bg-[#fafafa] flex flex-col items-center max-w-full mx-auto mb-[12rem] md:flex-row gap-[3rem]">
-      <div className="grid grid-cols-2 gap-[1.4rem] sm:gap-[3rem] md:gap-[5rem]">
+    <div className="bg-[#fafafa] flex flex-col items-center max-w-full mx-auto mb-[12rem] sm:flex-col md:flex-row gap-[4rem]">
+      <div className="grid grid-cols-2 gap-[3rem] md:gap-[4rem]">
         {/* Web Development Box */}
         <div className={`${styles.serviceBox} ${styles.serviceBoxHover}`}>
           <img

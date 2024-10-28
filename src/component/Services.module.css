@@ -12,7 +12,7 @@
 }
 
 .serviceImg {
-  @apply w-[78px] sm:w-[88px] md:w-[98px] h-[76px] sm:h-[86px] md:h-[96px];
+  @apply max-w-[78px] sm:max-w-[80px] md:max-w-[98px] h-[76px] sm:h-[78px] md:h-[96px];
   @apply filter brightness-0;
 }
 

@@ -10,8 +10,8 @@ function Wedo() {
     editHovered((prevIsHovered) => !prevIsHovered);
   }
   return (
-    <section className="bg-[#fafafa] px-[1.8rem] pt-[4.8rem] sm:pt-[6rem] pb-[0.6rem] sm:pb-[2rem] flex flex-col sm:flex-row gap-[2rem] sm:gap-[3rem] max-w-full sm:max-w-[90%] md:max-w-[130rem] mx-auto mb-[6rem] sm:mb-[2rem]">
-      <div className="flex flex-col md:flex-row gap-[3rem] mt-[5rem]">
+    <section className="bg-[#fafafa] px-[1.8rem] pt-[4.8rem] sm:pt-[6rem] pb-[0.6rem] sm:pb-[2rem] flex flex-col md:flex-row gap-[2rem] sm:gap-[3rem] max-w-full sm:max-w-[90%] md:max-w-[130rem] mx-auto mb-[6rem] sm:mb-[2rem]">
+      <div className="grid md:grid-cols-2 gap-[3rem] mt-[5rem]">
         <div className="flex flex-col max-w-[60rem] gap-[3rem]">
           <h4 className="flex items-center font-[600] text-[1.6rem] sm:text-[1.8rem] md:text-[2rem] leading-[3rem]">
             What we do
