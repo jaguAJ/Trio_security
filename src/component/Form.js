@@ -54,7 +54,7 @@ function Form() {
     p-[2rem] md:p-[3rem] 
     ml-[1rem] sm:ml-[5rem] mb-[3rem] sm:mb-[5rem] transform bg-sub-mobile"
     >
-      <h2 className="text-white text-center mt-[1.5rem] mb-[2rem] md:mb-[4rem] sm:mt-[2rem] sm:mb-[6.8rem] font-[600] text-[26px] md:text-[38px] sm:text-[3.8rem] leading-[94%] md:leading-[114%] font-poppins">
+      <h2 className="text-white text-center mt-[1.5rem] mb-[2rem] md:mb-[4rem] sm:mt-[2rem] sm:mb-[6.8rem] font-[600] text-[22px] md:text-[38px] sm:text-[3.8rem] leading-[94%] md:leading-[114%] font-poppins">
         Subscribe to our newsletter
       </h2>
 
@@ -62,40 +62,34 @@ function Form() {
       <div className="flex justify-center">
         <form
           onSubmit={onSubmit}
-          className="subscribe-form text-white w-full max-w-[500px] md:max-w-full mx-auto md:px-0 px-16"
+          className="subscribe-form text-white w-full max-w-[65%] mx-auto md:px-0 px-16"
         >
           <div className="flex flex-col sm:flex-row justify-center items-center gap-[1.4rem] sm:gap-[1.8rem]">
-            <div className="control self-start md:self-center w-full sm:w-auto">
-              <input
-                className="input w-full text-white rounded-[9px] py-[0.6rem] md:py-[0.8rem] px-[0.8rem] md:px-[1rem] bg-[#2b2b2b] border border-[#c8b7b7] font-poppins font-[300] text-[14px] sm:text-[15px] leading-[1.4rem] focus:outline-none"
-                type="text"
-                id="first-name"
-                name="name"
-                placeholder="First Name"
-                required
-              />
-            </div>
+            <input
+              className="control  md:self-center w-auto sm:w-auto input md:w-full text-white rounded-[9px] py-[0.6rem] md:py-[0.8rem] px-[0.8rem] md:px-[1rem] bg-[#2b2b2b] border border-[#c8b7b7] font-poppins font-[300] text-[14px] sm:text-[15px] leading-[1.4rem] focus:outline-none"
+              type="text"
+              id="first-name"
+              name="name"
+              placeholder="First Name"
+              required
+            />
 
-            <div className="control self-start md:self-center w-full sm:w-auto">
-              <input
-                className="input w-full text-white rounded-[9px] py-[0.6rem] md:py-[0.8rem] px-[0.8rem] md:px-[1rem] bg-[#2b2b2b] border border-[#c8b7b7] font-poppins font-[300] text-[14px] sm:text-[15px] leading-[1.4rem] focus:outline-none"
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Email address"
-                required
-              />
-            </div>
+            <input
+              className="control  md:self-center w-auto md:w-full text-white rounded-[9px] py-[0.6rem] md:py-[0.8rem] px-[0.8rem] md:px-[1rem] bg-[#2b2b2b] border border-[#c8b7b7] font-poppins font-[300] text-[14px] sm:text-[15px] leading-[1.4rem] focus:outline-none"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
 
-            <div className="self-start md:self-center ">
-              <button
-                type="submit"
-                to="/congrats"
-                className="subscribe-btn w-full py-[1rem]  px-[1.2rem] sm:py-[1.2rem] sm:px-[3.8rem] border-none rounded-[1.4rem] md:rounded-[0.8rem] bg-white text-black text-[1.4rem sm:text-[1.6rem] no-underline shadow-[inset_4px_4px_4px_#00000040,inset_-4px_-4px_4px_#00000040] cursor-pointer transition-[0.3s] hover:bg-[#252525] hover:text-white hover:shadow-[0px_4px_10px_0px_rgba(255,255,255,0.6)]"
-              >
-                Subscribe Now
-              </button>
-            </div>
+            <button
+              type="submit"
+              to="/congrats"
+              className=" md:self-center w-auto md:w-full py-[1rem] px-[1.2rem] sm:py-[1.2rem] sm:px-[3.8rem] border-none rounded-[1.4rem] md:rounded-[0.8rem] bg-white text-black text-[1.4rem sm:text-[1.6rem] no-underline shadow-[inset_4px_4px_4px_#00000040,inset_-4px_-4px_4px_#00000040] cursor-pointer transition-[0.3s] hover:bg-[#252525] hover:text-white hover:shadow-[0px_4px_10px_0px_rgba(255,255,255,0.6)]"
+            >
+              Subscribe Now
+            </button>
           </div>
         </form>
       </div>

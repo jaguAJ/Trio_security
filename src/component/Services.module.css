@@ -2,8 +2,8 @@
 .serviceBox {
   @apply bg-white rounded-[10px] sm:rounded-[14px] md:rounded-[20px];
   @apply shadow-[0px_4px_30px_rgba(0,0,0,0.25)] w-[165px] h-[145px];
-  @apply sm:w-[250px] sm:h-[220px] md:w-[285px] md:h-[250px];
-  @apply flex flex-col gap-[6px] sm:gap-[2rem] md:gap-[3rem] px-[18px] pb-[50px];
+  @apply sm:w-[250px] sm:h-[220px] md:w-[265px] md:h-[230px] lg:w-[285px] lg:h-[250px];
+  @apply flex flex-col gap-[6px] sm:gap-[2rem] lg:gap-[3rem] px-[18px] pb-[50px];
   @apply transition-shadow;
 }
 
@@ -12,14 +12,14 @@
 }
 
 .serviceImg {
-  @apply max-w-[78px] sm:max-w-[80px] md:max-w-[98px] h-[76px] sm:h-[78px] md:h-[96px];
+  @apply max-w-[78px] sm:max-w-[80px] md:max-w-[84] lg:max-w-[98px] h-[76px] sm:h-[78px] md:h-[80px] lg:h-[96px];
   @apply filter brightness-0;
 }
 
 .serviceTitle {
   font-family: Playfair Display SC;
 
-  @apply text-[1.6rem] sm:text-[2.2rem] md:text-[2.4rem] font-[500];
+  @apply text-[1.6rem] sm:text-[2.2rem] lg:text-[2.4rem] font-[500];
   @apply leading-[20px] sm:leading-[25px] md:leading-[40px];
   @apply text-left;
 }

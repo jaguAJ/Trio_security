@@ -39,9 +39,6 @@ body {
   .bg-hero-mobile {
     background-image: url("../src/assets/mobileHeroImg.png");
   }
-  .bg-sub-mobile {
-    background-image: url("../src/assets/subBack.png");
-  }
 }
 
 @media (min-width: 1024px) {
@@ -49,7 +46,11 @@ body {
     background-image: url("../src/assets/heroimg.jpeg");
   }
 }
-
+@media (max-width: 640px) {
+  .bg-sub-mobile {
+    background-image: url("../src/assets/subBack.png");
+  }
+}
 .serviceBg {
   position: relative;
   overflow: hidden;
