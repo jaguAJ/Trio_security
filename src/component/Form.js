@@ -48,13 +48,13 @@ function Form() {
 
   return (
     <div
-      className="flex flex-col gap-6 future max-w-[130rem] min-h-[26rem]
+      className="flex flex-col gap-6 future w-auto mx-auto md:max-w-[130rem] min-h-[26rem]
     bg-[url('https://cdn.builder.io/api/v1/image/assets/TEMP/da6c50f677e24abf6def59296faaffd0610d061fbf5e3df5699040652a0c1337')]
      bg-center bg-contain  bg-no-repeat
     p-[2rem] md:p-[3rem] 
-    ml-[1rem] sm:ml-[5rem] mb-[3rem] sm:mb-[5rem] transform bg-sub-mobile"
+    transform bg-sub-mobile"
     >
-      <h2 className="text-white text-center mt-[1.5rem] mb-[2rem] md:mb-[4rem] sm:mt-[2rem] sm:mb-[6.8rem] font-[600] text-[22px] md:text-[38px] sm:text-[3.8rem] leading-[94%] md:leading-[114%] font-poppins">
+      <h2 className="text-white text-center mt-[1.5rem] mb-[2rem] sm:mt-[4rem] sm:mb-[2rem] md:mt-[2rem] md:mb-[4rem]  lg:mb-[3.8rem] font-[600] text-[22px] md:text-[38px] sm:text-[3.8rem] leading-[94%] md:leading-[114%] font-poppins">
         Subscribe to our newsletter
       </h2>
 
@@ -86,7 +86,7 @@ function Form() {
             <button
               type="submit"
               to="/congrats"
-              className=" md:self-center w-auto md:w-full py-[1rem] px-[1.2rem] sm:py-[1.2rem] sm:px-[3.8rem] border-none rounded-[1.4rem] md:rounded-[0.8rem] bg-white text-black text-[1.4rem sm:text-[1.6rem] no-underline shadow-[inset_4px_4px_4px_#00000040,inset_-4px_-4px_4px_#00000040] cursor-pointer transition-[0.3s] hover:bg-[#252525] hover:text-white hover:shadow-[0px_4px_10px_0px_rgba(255,255,255,0.6)]"
+              className=" md:self-center w-auto md:w-[50%] py-[1rem] px-[1.2rem] sm:py-[1.2rem] sm:px-[3.8rem] border-none rounded-[1.4rem] md:rounded-[0.8rem] bg-white text-black text-[1.4rem sm:text-[1.6rem] no-underline shadow-[inset_4px_4px_4px_#00000040,inset_-4px_-4px_4px_#00000040] cursor-pointer transition-[0.3s] hover:bg-[#252525] hover:text-white hover:shadow-[0px_4px_10px_0px_rgba(255,255,255,0.6)] whitespace-nowrap"
             >
               Subscribe Now
             </button>

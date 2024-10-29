@@ -18,67 +18,67 @@ export const YUs = () => {
           </h2>
         </>
 
-        <div className="relative w-full h-full sm:w-[748px] lg:w-[1395px] sm:h-[300px] lg:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
-          <Vector1283 className="w-[1000px] h-[800px] scale-150 sm:scale-100 md:scale-100 sm:w-[838px] sm:h-[302px] md:w-[1395px] md:h-[395px] sm:rotate-0 rotate-90" />
+        <div className="relative mx-auto w-full h-full sm:w-[620px] lg:w-[1395px] sm:h-[300px] lg:h-[395px] mb-36 md:mb-10 flex sm:justify-center">
+          <Vector1283 className="w-[1000px] h-[800px] scale-150 sm:scale-90 md:scale-100 sm:w-[908px] sm:h-[362px] md:w-[1395px] md:h-[395px] sm:rotate-0 rotate-90" />
           {/* First Card */}
-          <div className="absolute top-[-40px] left-[120px] md:top-[148px] md:left-[52px] flex flex-col py-[1.6rem] sm:py-[2.5rem] px-[2.6rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[-40px] left-[120px] sm:top-[10px] sm:left-[-22px] lg:top-[148px] lg:left-[52px] flex flex-col py-[1.6rem] lg:py-[2.5rem] px-[2.6rem] gap-1 sm:gap-2 lg:gap-6 max-w-[228px] h-[185px] lg:max-w-[306px] lg:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[52px] sm:w-[56px] md:w-[62px] h-[58px] sm:h-[62px] md:h-[68px]"
+              className="w-[52px]  lg:w-[62px] h-[58px]  lg:h-[68px]"
               alt="Star badge"
               src={star}
             />
-            <h2 className="text-[#282828] font-poppins text-[20px] sm:text-[22px] md:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
+            <h2 className="text-[#282828] font-poppins text-[20px] lg:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
               Premium Quality
             </h2>
-            <p className="w-[200px] sm:w-[248px] text-black text-[1.4rem] sm:text-[1.4rem] md:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
+            <p className="w-[200px] lg:w-[248px] text-black text-[1.4rem]  lg:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
               Our service ensures premium quality, never lowering your
               expectations.
             </p>
           </div>
 
           {/* Second Card */}
-          <div className="absolute top-[185px] md:top-[49px] md:left-[382px] flex flex-col py-[1.6rem] sm:py-[3.6rem] px-[2.8rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[185px] sm:top-[212px] sm:left-[109px] lg:top-[49px] lg:left-[382px] flex flex-col py-[1.6rem] lg:py-[3.6rem] px-[2.8rem] gap-1 sm:gap-2 lg:gap-6 max-w-[228px] h-[185px] lg:max-w-[306px] lg:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[40px] sm:w-[42px] md:w-[50px] h-[56px] sm:h-[60px] md:h-[68px]"
+              className="w-[40px] lg:w-[50px] h-[56px] lg:h-[68px]"
               alt="Hourglass streamline"
               src={time}
             />
-            <h2 className="text-[#282828] font-poppins text-[20px] sm:text-[22px] md:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
+            <h2 className="text-[#282828] font-poppins text-[20px]  lg:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
               On-Time Delivery
             </h2>
-            <p className="w-[200px] sm:w-[248px] text-black text-[1.4rem] sm:text-[1.4rem] md:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
+            <p className="w-[200px] lg:w-[248px] text-black text-[1.4rem]  lg:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
               We deliver your project on time according to the agreed-upon
               dates.
             </p>
           </div>
 
           {/* Third Card */}
-          <div className="box-border overflow-hidden absolute top-[410px] left-[120px] md:top-[148px] md:left-[712px] flex flex-col py-[1.6rem] sm:py-[3.6rem] px-[2.8rem] sm:p-[2.8rem] gap-1 sm:gap-6 max-w-[228px] sm:max-w-[248px] md:max-w-[306px] h-[185px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="box-border overflow-hidden absolute top-[410px] left-[120px] sm:top-[10px] sm:left-[236px] lg:top-[148px] lg:left-[712px] flex flex-col py-[1.6rem] lg:py-[3.6rem] px-[2.8rem] sm:p-[2.8rem] gap-1 sm:gap-2 lg:gap-6 max-w-[228px] sm:max-w-[248px] lg:max-w-[306px] h-[185px] lg:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[42px] sm:w-[44px] md:w-[50px] h-[44px] sm:h-[48px] md:h-[54px]"
+              className="w-[42px]  lg:w-[50px] h-[44px]  lg:h-[54px]"
               alt="affordable price"
               src={handshake}
             />
-            <h2 className="text-[#282828] font-poppins text-[20px] sm:text-[22px] md:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
+            <h2 className="text-[#282828] font-poppins text-[20px]  lg:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
               Affordable&nbsp;&nbsp;Prices
             </h2>
-            <p className="w-[200px] sm:w-[248px] text-black text-[1.4rem] sm:text-[1.4rem] md:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
+            <p className="w-[200px] lg:w-[248px] text-black text-[1.4rem] lg:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
               Our prices vary based on client requirements, ensuring we remain
               budget-friendly.
             </p>
           </div>
 
           {/* Fourth Card */}
-          <div className="absolute top-[640px] md:top-[49px] md:left-[1031px] flex flex-col py-[1.6rem] sm:py-[2.5rem] px-[2.8rem] gap-1 sm:gap-6 max-w-[228px] h-[185px] md:max-w-[306px] md:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
+          <div className="absolute top-[640px] sm:top-[212px] sm:left-[386px] lg:top-[49px] lg:left-[1031px] flex flex-col py-[1.6rem] lg:py-[2.5rem] px-[2.8rem] gap-1 sm:gap-2 lg:gap-6 max-w-[228px] h-[185px] lg:max-w-[306px] lg:h-[247px] bg-[#d3e1ff99] rounded-[25px] backdrop-blur-sm">
             <img
-              className="w-[42px] sm:w-[44px] md:w-[50px] h-[48px] sm:h-[52px] md:h-[58px]"
+              className="w-[42px]  lg:w-[50px] h-[48px] lg:h-[58px]"
               alt="Customer support"
               src={support}
             />
-            <h2 className="text-[#282828] font-poppins text-[20px] sm:text-[22px]  md:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
+            <h2 className="text-[#282828] font-poppins text-[20px] lg:text-[24px] font-semibold leading-[32.64px] tracking-[-0.6px]">
               24/7 Support
             </h2>
-            <p className="w-[200px] sm:w-[248px] text-black text-[1.4rem] sm:text-[1.4rem] md:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
+            <p className="w-[200px] lg:w-[248px] text-black text-[1.4rem] lg:text-[1.6rem] leading-[23.04px] tracking-[-0.4px]">
               We are thrilled to connect with clients and help them achieve
               their goals.
             </p>

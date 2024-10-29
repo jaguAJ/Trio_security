@@ -41,7 +41,7 @@ function Wedo() {
             </span>
           </Link>
         </div>
-        <div>
+        <div className="mx-auto">
           <Service />
         </div>
       </div>

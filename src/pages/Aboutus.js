@@ -17,28 +17,6 @@ const Aboutus = () => {
       <MainNavigation />
       <div className="">
         <section className="max-w-full md:max-w-[120rem] px-[1.8rem] mx-auto pt-[9.6rem] relative ">
-          {/* Your background "S" divs here... */}
-          {/* <div className="absolute inset-0 z-0 ">
-            <div
-              className="absolute text-center text-[#F1F1F1] font-medium leading-4 break-words z-0 w-[1342.38px] h-[800px] top-[802.61px] left-[515.24px] text-[2000px] md:text-[4000px] font-[Plus Jakarta Sans] z-0"
-              style={{
-                transform: "rotate(-34.56deg)",
-                transformOrigin: "0 0",
-              }}
-            >
-              S
-            </div>
-            <div
-              className="absolute text-center text-[#F1F1F1] font-medium leading-4 break-words z-0 w-[1342.38px] h-[800px] top-[1279.61px] left-[-85.76px] 
-            text-[2000px] md:text-[4000px] font-[Plus Jakarta Sans] z-0"
-              style={{
-                transform: "rotate(-5.56deg)",
-                transformOrigin: "0 0",
-              }}
-            >
-              S
-            </div>
-          </div> */}
           <h2 className="text-[#0400B8] text-4xl md:text-6xl font-poppins font-medium leading-[2.8125rem] break-words mb-12 md:mb-28">
             About Us
           </h2>
@@ -62,13 +40,13 @@ const Aboutus = () => {
           </div>
 
           {/* Services Section */}
-          <div className="w-full mx-auto min-h-full md:h-[1200px] mb-32 z-10 ">
+          <div className="w-full mx-auto min-h-full lg:h-[1200px] mb-32 z-10 ">
             <h2 className="text-[#0400B8] text-4xl md:text-6xl font-poppins font-medium leading-[2.8125rem] break-words mb-16 md:mb-0 ">
               Our Services
             </h2>
 
-            <div className="grid grid-cols-2 md:block items-center z-10">
-              <div className="flex flex-col md:relative gap-y-8">
+            <div className="mx-auto grid grid-cols-2 lg:block gap-6 z-10">
+              <div className="grid grid-cols-1 justify-self-center lg:justify-self-start md:relative gap-6">
                 <Card
                   icon={webdev}
                   title="Website Development"
@@ -128,7 +106,7 @@ const Aboutus = () => {
                   left="342px"
                 />
               </div>
-              <div className="flex flex-col relative gap-y-8 mt-[7.4rem] md:mt-0">
+              <div className="grid grid-cols-1 relative gap-y-8 mt-[7.4rem] md:mt-0">
                 <Card
                   icon={dg}
                   title="Digital Marketing"

@@ -50,7 +50,7 @@ function Industries() {
               {service.map(({ src, alt, label }) => (
                 <div
                   key={alt}
-                  className="flex flex-col items-center justify-center w-full max-w-[180px] h-[160px] rounded-[20px] shadow-[6px_6px_6px_0px_rgba(0,0,0,0.25),-6px_-6px_6px_0px_#fff] bg-[#fafafa] p-[15px] justify-self-center md:max-w-[250px] md:h-[232px]"
+                  className="flex flex-col items-center justify-center w-full max-w-[180px] h-[140px] sm:h-[160px] rounded-[20px] shadow-[6px_6px_6px_0px_rgba(0,0,0,0.25),-6px_-6px_6px_0px_#fff] bg-[#fafafa] p-[15px] justify-self-center md:max-w-[250px] md:h-[232px]"
                 >
                   <img
                     src={src}

@@ -3,7 +3,7 @@ import Form from "./Form.js";
 
 function Subscribe() {
   return (
-    <section className=" max-w-[140rem] mx-auto py-[4rem]">
+    <section className="md:max-w-[140rem] mx-auto py-[4rem]">
       <div className="sub-text-box flex flex-col lg:flex-row justify-between gap-[2.8rem] pt-[2.6rem] pb-[9.4rem] md:py-[9.4rem] px-[3.8rem]">
         <h1 className="text-black font-[600] text-[2.8rem] md:text-[5rem] leading-[110%] font-poppins">
           Your Future Starts Today..
@@ -18,7 +18,10 @@ function Subscribe() {
           Shimmer
         </button> */}
       </div>
-      <Form />
+      <div className="px-10">
+        {" "}
+        <Form />
+      </div>
     </section>
   );
 }

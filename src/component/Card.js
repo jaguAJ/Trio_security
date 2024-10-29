@@ -5,7 +5,7 @@ const Card = ({ icon, title, description, hoverContent, top, left }) => {
 
   return (
     <div
-      className={`static md:absolute bg-white shadow-custom w-[163px] h-[230px] md:w-[272px] md:h-[397px] flex flex-col gap-1 md:gap-6 items-center pt-[1.6rem] md:pt-[3.2rem] pb-[2.4rem] md:pb-[4.8rem] px-[0.8rem] md:px-[1.8rem] tems-center group hover:bg-[#2E74C5] transition-colors duration-300 `}
+      className={`static lg:absolute bg-white shadow-custom w-[150px] h-[210px] sm:w-[163px] sm:h-[230px] md:w-[272px] md:h-[397px] flex flex-col gap-1 md:gap-6 items-center justify-center pt-[1.6rem] md:pt-[3.2rem] pb-[2.4rem] md:pb-[4.8rem] px-[0.8rem] md:px-[1.8rem] group hover:bg-[#2E74C5] transition-colors duration-300 `}
       style={{ top, left }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
