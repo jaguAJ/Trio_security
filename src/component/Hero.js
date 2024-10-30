@@ -30,10 +30,10 @@ function Hero() {
             </p>
           </div>
 
-          <div className="mt-[14rem]">
+          <div className="mt-[14rem] sm:mt-[6rem] md:mt-0 lg:mt-[6rem]">
             <Link
               to="/ourservice"
-              className="flex items-center self-start justify-start gap-[1rem] text-[1.2rem] sm:text-[1.4rem] md:text-[1.6rem] font-semibold text-[#fff] bg-[#000] rounded-[10px] md:rounded-[20px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.6)] py-[1.2rem] md:py-[1.8rem] px-[2.8rem] md:px-[4rem] max-w-[210px] mt-[6rem] mb-[11.3rem] border-none transition-all duration-300 no-underline whitespace-nowrap hover:bg-[#feffff] hover:text-[#000] hover:shadow-[inset_0px_4px_8.7px_#00000040,0px_4px_4px_#00000040]"
+              className="flex items-center self-start justify-start gap-[1rem] text-[1.2rem] sm:text-[1.4rem] md:text-[1.6rem] font-semibold text-[#fff] bg-[#000] rounded-[10px] md:rounded-[20px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.6)] py-[1.2rem] md:py-[1.8rem] px-[2.8rem] md:px-[4rem] max-w-[210px] mt-[6rem] border-none transition-all duration-300 no-underline whitespace-nowrap hover:bg-[#feffff] hover:text-[#000] hover:shadow-[inset_0px_4px_8.7px_#00000040,0px_4px_4px_#00000040]"
               onMouseEnter={handleChange}
               onMouseLeave={handleChange}
             >
